@@ -6,3 +6,4 @@ ALTER MATERIALIZED VIEW fn_view SET SCHEMA lab_view;
 ALTER VIEW positive SET SCHEMA lab_view;
 ALTER VIEW positive_tab SET SCHEMA lab_view; 
 ALTER VIEW roots SET SCHEMA lab_view;
+ALTER VIEW roots_group SET SCHEMA lab_view;

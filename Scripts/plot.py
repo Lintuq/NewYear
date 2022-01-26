@@ -5,7 +5,7 @@ import matplotlib.pyplot as mp
 con = psycopg2.connect("dbname=g484-shlyahtin user=postgres host=127.0.0.1 port=5432")
 
 cur=con.cursor()
-cur.execute("SELECT x,y FROM fn_file ORDER BY x;")
+cur.execute("SELECT x,y FROM lab_view.fn_file ORDER BY x;")
 
 arr=cur.fetchall()
 
