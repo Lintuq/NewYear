@@ -1,0 +1,3 @@
+DROP TABLE tab1;
+DROP TABLE tab2;
+DROP TABLE tab3;
